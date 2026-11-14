@@ -1,7 +1,148 @@
 {
   "formatVersion": 1,
-  "published": "2026-11-10T00:00:00Z",
-  "fuelPrices": [],
+  "published": "2026-11-14T12:16:09Z",
+  "fuelPrices": [
+    {
+      "year": 2026,
+      "week": 26,
+      "petrol": 1.665,
+      "diesel": 1.485,
+      "lpg": 0.828
+    },
+    {
+      "year": 2026,
+      "week": 27,
+      "petrol": 1.673,
+      "diesel": 1.522,
+      "lpg": 0.828
+    },
+    {
+      "year": 2026,
+      "week": 28,
+      "petrol": 1.694,
+      "diesel": 1.603,
+      "lpg": 0.78
+    },
+    {
+      "year": 2026,
+      "week": 29,
+      "petrol": 1.713,
+      "diesel": 1.668,
+      "lpg": 0.78
+    },
+    {
+      "year": 2026,
+      "week": 30,
+      "petrol": 1.765,
+      "diesel": 1.737,
+      "lpg": 0.778
+    },
+    {
+      "year": 2026,
+      "week": 31,
+      "petrol": 1.761,
+      "diesel": 1.809,
+      "lpg": 0.777
+    },
+    {
+      "year": 2026,
+      "week": 32,
+      "petrol": 1.701,
+      "diesel": 1.833,
+      "lpg": 0.774
+    },
+    {
+      "year": 2026,
+      "week": 33,
+      "petrol": 1.696,
+      "diesel": 1.832,
+      "lpg": 0.805
+    },
+    {
+      "year": 2026,
+      "week": 34,
+      "petrol": 1.724,
+      "diesel": 1.862,
+      "lpg": 0.803
+    },
+    {
+      "year": 2026,
+      "week": 35,
+      "petrol": 1.753,
+      "diesel": 1.883,
+      "lpg": 0.802
+    },
+    {
+      "year": 2026,
+      "week": 36,
+      "petrol": 1.774,
+      "diesel": 1.908,
+      "lpg": 0.801
+    },
+    {
+      "year": 2026,
+      "week": 37,
+      "petrol": 1.808,
+      "diesel": 1.924,
+      "lpg": 0.8
+    },
+    {
+      "year": 2026,
+      "week": 38,
+      "petrol": 1.853,
+      "diesel": 1.95,
+      "lpg": 0.801
+    },
+    {
+      "year": 2026,
+      "week": 39,
+      "petrol": 1.853,
+      "diesel": 1.978,
+      "lpg": 0.801
+    },
+    {
+      "year": 2026,
+      "week": 40,
+      "petrol": 1.845,
+      "diesel": 1.972,
+      "lpg": 0.818
+    },
+    {
+      "year": 2026,
+      "week": 41,
+      "petrol": 1.846,
+      "diesel": 1.919,
+      "lpg": 0.866
+    },
+    {
+      "year": 2026,
+      "week": 42,
+      "petrol": 1.885,
+      "diesel": 1.952,
+      "lpg": 0.869
+    },
+    {
+      "year": 2026,
+      "week": 43,
+      "petrol": 1.82,
+      "diesel": 1.97,
+      "lpg": 0.871
+    },
+    {
+      "year": 2026,
+      "week": 44,
+      "petrol": 1.785,
+      "diesel": 1.979,
+      "lpg": 0.887
+    },
+    {
+      "year": 2026,
+      "week": 45,
+      "petrol": 1.691,
+      "diesel": 1.965,
+      "lpg": 0.957
+    }
+  ],
   "foreignRatePeriods": [
     {
       "validFrom": "2013-01-01",
