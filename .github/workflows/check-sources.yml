@@ -1,0 +1,42 @@
+name: check-sources
+
+# Weekly, Wednesday 06:00 UTC (the Statistical Office publishes after the week's first working day).
+# Fuel prices are PROPOSED as a pull request; nothing reaches main (which the app reads) unmerged.
+# Needs Settings > Actions > General > "Allow GitHub Actions to create and approve pull requests".
+on:
+  schedule:
+    - cron: "0 6 * * 3"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  fuel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch the weekly fuel prices
+        run: python3 -I scripts/fetch_fuel.py > "$RUNNER_TEMP/pr-body.md"
+      - name: Open a pull request when something changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- feed/v1/feed.json; then
+            echo "No new fuel prices."
+            exit 0
+          fi
+          week="$(date -u +%G-W%V)"
+          branch="fuel-$week"
+          if git ls-remote --exit-code --heads origin "$branch" >/dev/null 2>&1; then
+            echo "Branch $branch already exists (an open proposal)."
+            exit 0
+          fi
+          git config user.name "triplog-data[bot]"
+          git config user.email "triplog-data@users.noreply.github.com"
+          git switch -c "$branch"
+          git add feed/v1/feed.json
+          git commit -m "Fuel prices, $week"
+          git push origin "$branch"
+          gh pr create --base main --head "$branch" --title "Fuel prices, $week" --body-file "$RUNNER_TEMP/pr-body.md"

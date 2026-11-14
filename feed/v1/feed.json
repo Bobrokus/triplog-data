@@ -1,4 +1,981 @@
 {
   "formatVersion": 1,
-  "published": "2026-11-09T00:00:00Z"
+  "published": "2026-11-10T00:00:00Z",
+  "fuelPrices": [],
+  "foreignRatePeriods": [
+    {
+      "validFrom": "2013-01-01",
+      "source": {
+        "title": "opatrenie MF SR 401/2012 Z. z.",
+        "url": "https://www.slov-lex.sk/pravne-predpisy/SK/ZZ/2012/401/"
+      },
+      "rates": [
+        {
+          "country": "AD",
+          "currency": "EUR",
+          "rate": 42
+        },
+        {
+          "country": "AE",
+          "currency": "EUR",
+          "rate": 35
+        },
+        {
+          "country": "AF",
+          "currency": "EUR",
+          "rate": 32
+        },
+        {
+          "country": "AG",
+          "currency": "USD",
+          "rate": 52
+        },
+        {
+          "country": "AL",
+          "currency": "EUR",
+          "rate": 33
+        },
+        {
+          "country": "AM",
+          "currency": "EUR",
+          "rate": 27
+        },
+        {
+          "country": "AO",
+          "currency": "EUR",
+          "rate": 40
+        },
+        {
+          "country": "AR",
+          "currency": "EUR",
+          "rate": 37
+        },
+        {
+          "country": "AT",
+          "currency": "EUR",
+          "rate": 45
+        },
+        {
+          "country": "AU",
+          "currency": "AUD",
+          "rate": 74
+        },
+        {
+          "country": "AZ",
+          "currency": "EUR",
+          "rate": 28
+        },
+        {
+          "country": "BA",
+          "currency": "EUR",
+          "rate": 40
+        },
+        {
+          "country": "BB",
+          "currency": "USD",
+          "rate": 54
+        },
+        {
+          "country": "BD",
+          "currency": "EUR",
+          "rate": 36
+        },
+        {
+          "country": "BE",
+          "currency": "EUR",
+          "rate": 45
+        },
+        {
+          "country": "BF",
+          "currency": "EUR",
+          "rate": 36
+        },
+        {
+          "country": "BG",
+          "currency": "EUR",
+          "rate": 36
+        },
+        {
+          "country": "BH",
+          "currency": "EUR",
+          "rate": 39
+        },
+        {
+          "country": "BI",
+          "currency": "EUR",
+          "rate": 43
+        },
+        {
+          "country": "BJ",
+          "currency": "USD",
+          "rate": 47
+        },
+        {
+          "country": "BN",
+          "currency": "EUR",
+          "rate": 27
+        },
+        {
+          "country": "BO",
+          "currency": "EUR",
+          "rate": 32
+        },
+        {
+          "country": "BR",
+          "currency": "EUR",
+          "rate": 40
+        },
+        {
+          "country": "BS",
+          "currency": "USD",
+          "rate": 47
+        },
+        {
+          "country": "BT",
+          "currency": "EUR",
+          "rate": 30
+        },
+        {
+          "country": "BW",
+          "currency": "EUR",
+          "rate": 33
+        },
+        {
+          "country": "BY",
+          "currency": "EUR",
+          "rate": 39
+        },
+        {
+          "country": "BZ",
+          "currency": "USD",
+          "rate": 45
+        },
+        {
+          "country": "CA",
+          "currency": "CAD",
+          "rate": 65
+        },
+        {
+          "country": "CD",
+          "currency": "EUR",
+          "rate": 40
+        },
+        {
+          "country": "CF",
+          "currency": "USD",
+          "rate": 31
+        },
+        {
+          "country": "CG",
+          "currency": "EUR",
+          "rate": 40
+        },
+        {
+          "country": "CH",
+          "currency": "CHF",
+          "rate": 80
+        },
+        {
+          "country": "CI",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "CL",
+          "currency": "EUR",
+          "rate": 37
+        },
+        {
+          "country": "CM",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "CN",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "CO",
+          "currency": "EUR",
+          "rate": 39
+        },
+        {
+          "country": "CR",
+          "currency": "USD",
+          "rate": 45
+        },
+        {
+          "country": "CU",
+          "currency": "EUR",
+          "rate": 45
+        },
+        {
+          "country": "CV",
+          "currency": "USD",
+          "rate": 38
+        },
+        {
+          "country": "CY",
+          "currency": "EUR",
+          "rate": 41
+        },
+        {
+          "country": "CZ",
+          "currency": "CZK",
+          "rate": 600
+        },
+        {
+          "country": "DE",
+          "currency": "EUR",
+          "rate": 45
+        },
+        {
+          "country": "DJ",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "DK",
+          "currency": "DKK",
+          "rate": 380
+        },
+        {
+          "country": "DM",
+          "currency": "USD",
+          "rate": 41
+        },
+        {
+          "country": "DO",
+          "currency": "USD",
+          "rate": 50
+        },
+        {
+          "country": "DZ",
+          "currency": "USD",
+          "rate": 42
+        },
+        {
+          "country": "EC",
+          "currency": "EUR",
+          "rate": 45
+        },
+        {
+          "country": "EE",
+          "currency": "EUR",
+          "rate": 42
+        },
+        {
+          "country": "EG",
+          "currency": "EUR",
+          "rate": 40
+        },
+        {
+          "country": "ER",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "ES",
+          "currency": "EUR",
+          "rate": 43
+        },
+        {
+          "country": "ET",
+          "currency": "EUR",
+          "rate": 40
+        },
+        {
+          "country": "FI",
+          "currency": "EUR",
+          "rate": 50
+        },
+        {
+          "country": "FJ",
+          "currency": "AUD",
+          "rate": 55
+        },
+        {
+          "country": "FM",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "FR",
+          "currency": "EUR",
+          "rate": 45
+        },
+        {
+          "country": "GA",
+          "currency": "EUR",
+          "rate": 45
+        },
+        {
+          "country": "GB",
+          "currency": "GBP",
+          "rate": 37
+        },
+        {
+          "country": "GD",
+          "currency": "USD",
+          "rate": 46
+        },
+        {
+          "country": "GE",
+          "currency": "EUR",
+          "rate": 29
+        },
+        {
+          "country": "GH",
+          "currency": "USD",
+          "rate": 55
+        },
+        {
+          "country": "GM",
+          "currency": "USD",
+          "rate": 33
+        },
+        {
+          "country": "GN",
+          "currency": "USD",
+          "rate": 43
+        },
+        {
+          "country": "GQ",
+          "currency": "USD",
+          "rate": 45
+        },
+        {
+          "country": "GR",
+          "currency": "EUR",
+          "rate": 42
+        },
+        {
+          "country": "GT",
+          "currency": "USD",
+          "rate": 38
+        },
+        {
+          "country": "GW",
+          "currency": "USD",
+          "rate": 46
+        },
+        {
+          "country": "GY",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "HN",
+          "currency": "USD",
+          "rate": 38
+        },
+        {
+          "country": "HR",
+          "currency": "EUR",
+          "rate": 40
+        },
+        {
+          "country": "HT",
+          "currency": "USD",
+          "rate": 55
+        },
+        {
+          "country": "HU",
+          "currency": "EUR",
+          "rate": 39
+        },
+        {
+          "country": "ID",
+          "currency": "EUR",
+          "rate": 42
+        },
+        {
+          "country": "IE",
+          "currency": "EUR",
+          "rate": 53
+        },
+        {
+          "country": "IL",
+          "currency": "EUR",
+          "rate": 48
+        },
+        {
+          "country": "IN",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "IQ",
+          "currency": "EUR",
+          "rate": 35
+        },
+        {
+          "country": "IR",
+          "currency": "EUR",
+          "rate": 37
+        },
+        {
+          "country": "IS",
+          "currency": "EUR",
+          "rate": 55
+        },
+        {
+          "country": "IT",
+          "currency": "EUR",
+          "rate": 45
+        },
+        {
+          "country": "JM",
+          "currency": "USD",
+          "rate": 56
+        },
+        {
+          "country": "JO",
+          "currency": "EUR",
+          "rate": 36
+        },
+        {
+          "country": "JP",
+          "currency": "JPY",
+          "rate": 6500
+        },
+        {
+          "country": "KE",
+          "currency": "EUR",
+          "rate": 45
+        },
+        {
+          "country": "KG",
+          "currency": "EUR",
+          "rate": 37
+        },
+        {
+          "country": "KH",
+          "currency": "EUR",
+          "rate": 29
+        },
+        {
+          "country": "KI",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "KM",
+          "currency": "EUR",
+          "rate": 27
+        },
+        {
+          "country": "KN",
+          "currency": "USD",
+          "rate": 57
+        },
+        {
+          "country": "KP",
+          "currency": "EUR",
+          "rate": 34
+        },
+        {
+          "country": "KR",
+          "currency": "EUR",
+          "rate": 40
+        },
+        {
+          "country": "KW",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "KZ",
+          "currency": "EUR",
+          "rate": 45
+        },
+        {
+          "country": "LA",
+          "currency": "EUR",
+          "rate": 34
+        },
+        {
+          "country": "LB",
+          "currency": "EUR",
+          "rate": 37
+        },
+        {
+          "country": "LC",
+          "currency": "USD",
+          "rate": 40
+        },
+        {
+          "country": "LI",
+          "currency": "CHF",
+          "rate": 80
+        },
+        {
+          "country": "LK",
+          "currency": "EUR",
+          "rate": 37
+        },
+        {
+          "country": "LR",
+          "currency": "USD",
+          "rate": 55
+        },
+        {
+          "country": "LS",
+          "currency": "EUR",
+          "rate": 32
+        },
+        {
+          "country": "LT",
+          "currency": "EUR",
+          "rate": 40
+        },
+        {
+          "country": "LU",
+          "currency": "EUR",
+          "rate": 50
+        },
+        {
+          "country": "LV",
+          "currency": "EUR",
+          "rate": 40
+        },
+        {
+          "country": "LY",
+          "currency": "EUR",
+          "rate": 45
+        },
+        {
+          "country": "MA",
+          "currency": "USD",
+          "rate": 35
+        },
+        {
+          "country": "MC",
+          "currency": "EUR",
+          "rate": 45
+        },
+        {
+          "country": "MD",
+          "currency": "EUR",
+          "rate": 40
+        },
+        {
+          "country": "ME",
+          "currency": "EUR",
+          "rate": 40
+        },
+        {
+          "country": "MG",
+          "currency": "EUR",
+          "rate": 31
+        },
+        {
+          "country": "MH",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "MK",
+          "currency": "EUR",
+          "rate": 37
+        },
+        {
+          "country": "ML",
+          "currency": "USD",
+          "rate": 46
+        },
+        {
+          "country": "MM",
+          "currency": "EUR",
+          "rate": 41
+        },
+        {
+          "country": "MN",
+          "currency": "EUR",
+          "rate": 40
+        },
+        {
+          "country": "MR",
+          "currency": "EUR",
+          "rate": 30
+        },
+        {
+          "country": "MT",
+          "currency": "EUR",
+          "rate": 45
+        },
+        {
+          "country": "MU",
+          "currency": "EUR",
+          "rate": 34
+        },
+        {
+          "country": "MV",
+          "currency": "EUR",
+          "rate": 41
+        },
+        {
+          "country": "MW",
+          "currency": "EUR",
+          "rate": 34
+        },
+        {
+          "country": "MX",
+          "currency": "EUR",
+          "rate": 35
+        },
+        {
+          "country": "MY",
+          "currency": "EUR",
+          "rate": 32
+        },
+        {
+          "country": "MZ",
+          "currency": "EUR",
+          "rate": 35
+        },
+        {
+          "country": "NA",
+          "currency": "EUR",
+          "rate": 31
+        },
+        {
+          "country": "NE",
+          "currency": "USD",
+          "rate": 42
+        },
+        {
+          "country": "NG",
+          "currency": "EUR",
+          "rate": 47
+        },
+        {
+          "country": "NI",
+          "currency": "USD",
+          "rate": 44
+        },
+        {
+          "country": "NL",
+          "currency": "EUR",
+          "rate": 45
+        },
+        {
+          "country": "NO",
+          "currency": "NOK",
+          "rate": 420
+        },
+        {
+          "country": "NP",
+          "currency": "EUR",
+          "rate": 36
+        },
+        {
+          "country": "NR",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "NZ",
+          "currency": "USD",
+          "rate": 48
+        },
+        {
+          "country": "OM",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "PA",
+          "currency": "USD",
+          "rate": 42
+        },
+        {
+          "country": "PE",
+          "currency": "EUR",
+          "rate": 40
+        },
+        {
+          "country": "PG",
+          "currency": "EUR",
+          "rate": 30
+        },
+        {
+          "country": "PH",
+          "currency": "EUR",
+          "rate": 31
+        },
+        {
+          "country": "PK",
+          "currency": "EUR",
+          "rate": 35
+        },
+        {
+          "country": "PL",
+          "currency": "EUR",
+          "rate": 37
+        },
+        {
+          "country": "PT",
+          "currency": "EUR",
+          "rate": 43
+        },
+        {
+          "country": "PW",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "PY",
+          "currency": "EUR",
+          "rate": 31
+        },
+        {
+          "country": "QA",
+          "currency": "EUR",
+          "rate": 35
+        },
+        {
+          "country": "RO",
+          "currency": "EUR",
+          "rate": 43
+        },
+        {
+          "country": "RS",
+          "currency": "EUR",
+          "rate": 43
+        },
+        {
+          "country": "RU",
+          "currency": "EUR",
+          "rate": 39
+        },
+        {
+          "country": "RW",
+          "currency": "EUR",
+          "rate": 41
+        },
+        {
+          "country": "SA",
+          "currency": "EUR",
+          "rate": 36
+        },
+        {
+          "country": "SB",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "SC",
+          "currency": "EUR",
+          "rate": 35
+        },
+        {
+          "country": "SD",
+          "currency": "EUR",
+          "rate": 42
+        },
+        {
+          "country": "SE",
+          "currency": "SEK",
+          "rate": 455
+        },
+        {
+          "country": "SG",
+          "currency": "EUR",
+          "rate": 35
+        },
+        {
+          "country": "SI",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "SL",
+          "currency": "USD",
+          "rate": 48
+        },
+        {
+          "country": "SM",
+          "currency": "EUR",
+          "rate": 45
+        },
+        {
+          "country": "SN",
+          "currency": "USD",
+          "rate": 41
+        },
+        {
+          "country": "SO",
+          "currency": "EUR",
+          "rate": 32
+        },
+        {
+          "country": "SR",
+          "currency": "EUR",
+          "rate": 42
+        },
+        {
+          "country": "SS",
+          "currency": "EUR",
+          "rate": 35
+        },
+        {
+          "country": "ST",
+          "currency": "USD",
+          "rate": 37
+        },
+        {
+          "country": "SV",
+          "currency": "USD",
+          "rate": 40
+        },
+        {
+          "country": "SY",
+          "currency": "EUR",
+          "rate": 30
+        },
+        {
+          "country": "SZ",
+          "currency": "EUR",
+          "rate": 29
+        },
+        {
+          "country": "TD",
+          "currency": "EUR",
+          "rate": 39
+        },
+        {
+          "country": "TG",
+          "currency": "EUR",
+          "rate": 36
+        },
+        {
+          "country": "TH",
+          "currency": "EUR",
+          "rate": 31
+        },
+        {
+          "country": "TJ",
+          "currency": "EUR",
+          "rate": 32
+        },
+        {
+          "country": "TL",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "TM",
+          "currency": "EUR",
+          "rate": 33
+        },
+        {
+          "country": "TN",
+          "currency": "EUR",
+          "rate": 37
+        },
+        {
+          "country": "TO",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "TR",
+          "currency": "EUR",
+          "rate": 44
+        },
+        {
+          "country": "TT",
+          "currency": "USD",
+          "rate": 56
+        },
+        {
+          "country": "TV",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "TZ",
+          "currency": "EUR",
+          "rate": 42
+        },
+        {
+          "country": "UA",
+          "currency": "EUR",
+          "rate": 37
+        },
+        {
+          "country": "UG",
+          "currency": "EUR",
+          "rate": 42
+        },
+        {
+          "country": "US",
+          "currency": "USD",
+          "rate": 60
+        },
+        {
+          "country": "UY",
+          "currency": "EUR",
+          "rate": 37
+        },
+        {
+          "country": "UZ",
+          "currency": "EUR",
+          "rate": 39
+        },
+        {
+          "country": "VA",
+          "currency": "EUR",
+          "rate": 45
+        },
+        {
+          "country": "VC",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "VE",
+          "currency": "EUR",
+          "rate": 46
+        },
+        {
+          "country": "VN",
+          "currency": "EUR",
+          "rate": 36
+        },
+        {
+          "country": "VU",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "WS",
+          "currency": "USD",
+          "rate": 36
+        },
+        {
+          "country": "YE",
+          "currency": "EUR",
+          "rate": 35
+        },
+        {
+          "country": "ZA",
+          "currency": "EUR",
+          "rate": 38
+        },
+        {
+          "country": "ZM",
+          "currency": "EUR",
+          "rate": 33
+        },
+        {
+          "country": "ZW",
+          "currency": "EUR",
+          "rate": 39
+        }
+      ]
+    }
+  ]
 }
